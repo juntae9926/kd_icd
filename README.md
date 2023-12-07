@@ -1,6 +1,8 @@
 
 
-# Unsupervised Knowledge Distillation for Image Copy Detection on Lightweight Models.
+# Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection.
+Implementation of "Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection" that is Juntae's Masters Thesis 
+
 This repository contains strong SSCD baseline implementation.
 "[A Self-Supervised Descriptor for Image Copy Detection](https://cvpr2022.thecvf.com/)[CVPR 2022]".
 
