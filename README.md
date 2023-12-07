@@ -63,6 +63,16 @@ pip install -r reqirements.txt
 conda install -c pytorch faiss-gpu
 ```
 
+### Training
+```
+sh train.sh
+```
+
+### Evaluation
+```
+sh disc_eval.sh
+```
+
 ## Citation
 ```
 @article{juntae2023,
