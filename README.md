@@ -63,7 +63,7 @@ conda install -c pytorch faiss-gpu
 
 ## Citation
 ```
-@article{pizzi2022self,
+@article{juntae2023,
   title={Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection},
   author={Juntae Kim},
   journal={Master's Thesis},
