@@ -1,0 +1,33 @@
+args: !!python/object:argparse.Namespace
+  absolute_learning_rate: 0.05
+  accelerator: auto
+  augmentations: ADVANCED
+  backbone: TV_RESNET18
+  base_learning_rate: 0.3
+  batch_size: 256
+  ckpt: ./weights/sscd_disc_mixup.torchvision.pt
+  dims: 512
+  entropy_weight: null
+  epochs: 100
+  gpus: 2
+  infonce_temperature: 0.05
+  kd: true
+  mixup: true
+  momentum: 0.9
+  nodes: 1
+  num_sanity_val_steps: 0
+  output_path: ./
+  pool_param: 3
+  query_dataset_path: /dataset/DISC/images/final_queries
+  ref_dataset_path: /dataset/DISC/images/references
+  resume: ''
+  student: null
+  sync_bn: true
+  train_dataset_path: /dataset/DISC/images/train
+  train_image_size: 224
+  val_dataset_path: /dataset/DISC/val_images
+  val_image_size: 288
+  warmup_epochs: 1
+  weight_decay: 1.0e-06
+  workers: 16
+train_steps: 3906
