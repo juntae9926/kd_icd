@@ -1,9 +1,9 @@
 
 
 # Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection.
-Implementation of "Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection" that is Juntae's Masters Thesis 
+Implementation of "Self-supervised Knowledge Distillation using Dynamic Memory Bank for Image Copy Detection" which is Juntae's Masters Thesis 
 
-This repository contains strong SSCD baseline implementation.
+This repository contains SSCD baseline implementation.
 "[A Self-Supervised Descriptor for Image Copy Detection](https://cvpr2022.thecvf.com/)[CVPR 2022]".
 
 ## About this codebase
@@ -13,23 +13,22 @@ with some components from [Classy Vision](https://classyvision.ai/).
 
 ## Datasets used
 - DISC (Facebook Image Similarity Challenge 2021)
-- Copydays
+- CD10K(Copydays + 10K distractors)
 
 ## Unsupervised Knowledge Distillation
-- similarity distillation 
+- Similarity Distillation using Dynamic Memory Bank
 - KoLeo regularization
-- DirectCLR contrastive learning
 
 ## Teacher Models(Pretrained)
 - SSCD: ResNet-50
 - DINO: ViT-B/16
 
 ## Student Models
-- ResNet-18
 - EfficientNet-B0
 - MobileNet-V3-Large
 - RegNet-Y
 - MobileViT
+- ResNet-18
 
 ## Performances
 
