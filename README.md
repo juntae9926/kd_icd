@@ -31,6 +31,64 @@ with some components from [Classy Vision](https://classyvision.ai/).
 - ViT-S
 - MobileViT
 
+## Performances
+- ResNet-18
+- EfficientNet-B0
+- MobileNet-V3-Large
+- ViT-S
+- MobileViT
+<table style="margin: auto">
+  <tr>
+    <th>model</th>
+    <th># of<br />params[M]</th>
+    <th>Feature Size</th>
+    <th>µAP</th>
+    <th>Acc@1</th>
+    <th>download</th>
+  </tr>
+  <tr>
+    <td>EfficientNet-b0</td>
+    <td align="right">4.7</td>
+    <td align="right">512</td>
+    <td align="right">67.4%</td>
+    <td align="right">75.0%</td>
+    <td><a href="https://drive.google.com/file/d/10Jxr4aCiBA5nkmU3kBJaopzOrSvqi9RF/view?usp=drive_link">link</a></td>
+  </tr>
+  <tr>
+    <td>MobileNet-v3</td>
+    <td align="right">4.9</td>
+    <td align="right">512</td>
+    <td align="right">68.0%</td>
+    <td align="right">74.3%</td>
+    <td><a href="https://drive.google.com/file/d/1Tn0iLFGfePdpNHgK2h2t8PrQz-Bje1fY/view?usp=sharing">link</a></td>
+  </tr>
+  <tr>
+    <td>MobileViT-s</td>
+    <td align="right">5.3</td>
+    <td align="right">512</td>
+    <td align="right">69.2%</td>
+    <td align="right">75.4%</td>
+    <td><a href="https://drive.google.com/file/d/1Snnt5TLIZudDesYHTMIcSvmzUbzQemvg/view?usp=sharing">link</a></td>
+  </tr>
+  <tr>
+    <td>Regnet_y</td>
+    <td align="right">6.0</td>
+    <td align="right">512</td>
+    <td align="right">70.9%</td>
+    <td align="right">76.5%</td>
+    <td><a href="https://drive.google.com/file/d/1qgy2VyJyu_tLIrZ2dA1LA1g1wGvW-DVt/view?usp=sharing">link</a></td>
+  </tr>
+  <tr>
+    <td>ResNet-18</td>
+    <td align="right">11.2</td>
+    <td align="right">512</td>
+    <td align="right">62.5%</td>
+    <td align="right">69.5%</td>
+    <td><a href="https://drive.google.com/file/d/11bb5R225iRCj74yPWXfM6o9BVitmRDmp/view?usp=sharing">link</a></td>
+  </tr>
+</table>
+
+
 ## How to use
 
 ### Install miniconda3
