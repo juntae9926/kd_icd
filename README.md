@@ -28,15 +28,11 @@ with some components from [Classy Vision](https://classyvision.ai/).
 - ResNet-18
 - EfficientNet-B0
 - MobileNet-V3-Large
-- ViT-S
+- RegNet-Y
 - MobileViT
 
 ## Performances
-- ResNet-18
-- EfficientNet-B0
-- MobileNet-V3-Large
-- ViT-S
-- MobileViT
+
 <table style="margin: auto">
   <tr>
     <th>model</th>
